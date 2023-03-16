@@ -1,0 +1,15 @@
+<resources>
+   <string name="app_name">Oblicz swoje BMI</string>
+   <string name="enter_weight">Podaj wagę w kg</string>
+   <string name="enter_height">Podaj wzrost w metrach</string>
+   <string name="bmi">Twój współczynnik BMI: </string>
+   <string name="wyglodzenie">Wygłodzenie</string>
+   <string name="wychudzenie">Wychudzenie</string>
+   <string name="niedowaga">Niedowaga</string>
+   <string name="bmiok">Waga prawidłowa</string>
+   <string name="nadwaga">Nadwaga</string>
+   <string name="ot1">I Stopień otyłości</string>
+   <string name="ot2">II Stopień otyłości</string>
+   <string name="ot3">III Stopień otyłości</string>
+
+</resources>
