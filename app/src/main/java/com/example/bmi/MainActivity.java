@@ -41,25 +41,31 @@ public class MainActivity extends AppCompatActivity {
     //calculate BMI
     private void calculate() {
         double bmi = weight / (height * height);
-        //if(bmi>=25 || bmi<18.5) bmiTextView.setBackgroundColor(Color.parseColor("RED"));
-        //else bmiTextView.setBackgroundColor(Color.parseColor("GREEN"));
         String category;
         if (bmi < 16.0) {
             category = getString(R.string.wyglodzenie);
+            bmiTextView.setBackgroundColor(Color.parseColor("RED"));
         } else if (bmi < 17.0) {
             category = getString(R.string.wychudzenie);
+            bmiTextView.setBackgroundColor(Color.parseColor("#FFBF00"));
         } else if (bmi < 18.5) {
             category = getString(R.string.niedowaga);
+            bmiTextView.setBackgroundColor(Color.parseColor("YELLOW"));
         } else if (bmi < 25.0) {
             category = getString(R.string.bmiok);
+            bmiTextView.setBackgroundColor(Color.parseColor("GREEN"));
         } else if (bmi < 30.0) {
             category = getString(R.string.nadwaga);
+            bmiTextView.setBackgroundColor(Color.parseColor("YELLOW"));
         } else if (bmi < 35.0) {
             category = getString(R.string.ot1);
+            bmiTextView.setBackgroundColor(Color.parseColor("#FFBF00"));
         } else if (bmi < 40.0) {
             category = getString(R.string.ot2);
+            bmiTextView.setBackgroundColor(Color.parseColor("RED"));
         } else {
             category = getString(R.string.ot3);
+            bmiTextView.setBackgroundColor(Color.parseColor("RED"));
         }
         bmiTextView.setText(Double.toString(bmi));
         TextView categoryTextView = findViewById(R.id.categoryTextView);
