@@ -41,8 +41,6 @@ public class MainActivity extends AppCompatActivity {
     //calculate BMI
     private void calculate() {
         double bmi = weight / (height * height);
-        //if(bmi>=25 || bmi<18.5) bmiTextView.setBackgroundColor(Color.parseColor("RED"));
-        //else bmiTextView.setBackgroundColor(Color.parseColor("GREEN"));
         String category;
         if (bmi < 16.0) {
             category = getString(R.string.wyglodzenie);
