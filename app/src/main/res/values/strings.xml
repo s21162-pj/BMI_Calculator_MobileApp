@@ -2,6 +2,7 @@
    <string name="app_name">Oblicz swoje BMI</string>
    <string name="enter_weight">Podaj wagę w kg</string>
    <string name="enter_height">Podaj wzrost w metrach</string>
+   <string name="enter_height_cm">Podaj wzrost w cm</string>
    <string name="bmi">Twój współczynnik BMI: </string>
    <string name="wyglodzenie">Wygłodzenie</string>
    <string name="wychudzenie">Wychudzenie</string>
@@ -11,5 +12,49 @@
    <string name="ot1">I Stopień otyłości</string>
    <string name="ot2">II Stopień otyłości</string>
    <string name="ot3">III Stopień otyłości</string>
+   <string name="title">BMI - Żyj zdrowo</string>
+   <string name="bmibutton">Kalkulator BMI</string>
+   <string name="kcalbutton">Oblicz kalorie</string>
+   <string name="recipiesbutton">Przepisy</string>
+   <string name="wiek">Podaj wiek:</string>
+   <string name="plec">Wybierz płeć:</string>
+   <string-array name="gender">
+      <item>Mężczyzna</item>
+      <item>Kobieta</item>
+   </string-array>
+   <string name="txtView_BMR">Dzienne zapotrzebowanie kcal</string>
+
+   <string-array name="list_of_recipes">
+      <item>Jajecznica - ok.254 kcal</item>
+      <item>Sałatka grecka - ok.200-300 kcal</item>
+   </string-array>
+    <string-array name="dish_kcal">
+        <item>254 kcal</item>
+        <item>200-300 kcal</item>
+    </string-array>
+
+    <string name="skladniki">Składniki</string>
+    <string name="przygotowanie">Przygotowanie</string>
+
+   <string-array name="recipe_ingredients">
+      <item>2 jajka, 2łyżki mleka, szczypta soli i pieprzu, 1 łyżka masła</item>
+      <item>1 duży pomidor, 1 ogórek, 1 cebula, 1 papryka czerwona, 1/2 puszki czarne oliwki, 200g sera feta, kilka listków świeżej mięty, sól i pieprz do smaku, oliwa z oliwek</item>
+   </string-array>
+
+   <string-array name="recipe_directions">
+      <item>    Wymieszaj jajka z mlekiem, solą i pieprzem w misce.
+    Rozgrzej patelnię na średnim ogniu i dodaj masło, aby się rozpuściło.
+    Wlej mieszankę jajeczno-mleczną na patelnię i delikatnie mieszaj jajka łyżką.
+    Gdy jajka będą już prawie gotowe, przestaw patelnię z ognia i dalej mieszaj, aż jajka będą miękkie i puszyste.
+    Podawaj z kromkami chleba lub posyp jajecznice ziołami.</item>
+
+      <item>    Pokrój pomidora, ogórka, cebulę i paprykę w kostkę.
+    Oliwki przepłucz i dodaj do warzyw.
+    Ser feta pokrój w kostkę i dodaj do sałatki.
+    Dodaj posiekane listki mięty.
+    Dopraw sałatkę solą i pieprzem do smaku i polej oliwą z oliwek.
+    Wymieszaj dokładnie i podawaj na chłodno.</item>
+   </string-array>
+
 
 </resources>

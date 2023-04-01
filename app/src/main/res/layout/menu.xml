@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/button_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:background="#E0F1F6"
+        android:padding="16dp"
+        android:text="@string/bmibutton"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:background="#E0F1F6"
+        android:text="@string/kcalbutton"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/button_bmi"
+        app:layout_constraintEnd_toEndOf="@+id/button_bmi"
+        app:layout_constraintTop_toBottomOf="@+id/button_bmi" />
+
+    <Button
+        android:id="@+id/button_recipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:background="#E0F1F6"
+        android:text="@string/recipiesbutton"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/button_calories"
+        app:layout_constraintEnd_toEndOf="@+id/button_calories"
+        app:layout_constraintTop_toBottomOf="@+id/button_calories" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
