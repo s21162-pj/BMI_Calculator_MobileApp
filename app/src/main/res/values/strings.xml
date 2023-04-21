@@ -1,5 +1,5 @@
 <resources>
-   <string name="app_name">Oblicz swoje BMI</string>
+   <string name="app_name">BMI - Żyj zdrowo</string>
    <string name="enter_weight">Podaj wagę w kg</string>
    <string name="enter_height">Podaj wzrost w metrach</string>
    <string name="enter_height_cm">Podaj wzrost w cm</string>
@@ -16,6 +16,8 @@
    <string name="bmibutton">Kalkulator BMI</string>
    <string name="kcalbutton">Oblicz kalorie</string>
    <string name="recipiesbutton">Przepisy</string>
+   <string name="quizbutton">Quiz</string>
+   <string name="bmichart">Wykres BMI</string>
    <string name="wiek">Podaj wiek:</string>
    <string name="plec">Wybierz płeć:</string>
    <string-array name="gender">
@@ -56,5 +58,35 @@
     Wymieszaj dokładnie i podawaj na chłodno.</item>
    </string-array>
 
+    <string-array name="questions">
+        <item>Jakie produkty powinny stanowić podstawę naszej diety?</item>
+        <item>Które tłuszcze są korzystne dla naszego zdrowia?</item>
+        <item>Ile wody powinniśmy pić dziennie?</item>
+        <item>Jakie produkty są bogate w białko?</item>
+        <item>Jakie witaminy są niezbędne dla naszego organizmu?</item>
+        <item>Co powinniśmy jeść przed treningiem?</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>Słodycze,Tłuste mięso,Owoce warzywa pełnoziarniste,Fast food</item>
+        <item>Tłuszcze trans,Tłuszcze nasycone,Tłuszcze jednonienasycone i wielonienasycone,Tłuszcze trans i nasycone</item>
+        <item>Ok. 1 litra,Ok. 2 litry,Ok. 3 litry,Brak konkretnych wytycznych</item>
+        <item>Słodycze,Owoce,Mięso ryby jaja orzechy,Sery i tłuste produkty mleczne</item>
+        <item>Witamina A i B,Witamina C i D,Witamina E i K,Witamina F i G</item>
+        <item>Dużo tłuszczu,Dużo białka,Dużo węglowodanów,Nic przed treningiem</item>
+    </string-array>
+
+    <string-array name="good_answer">
+        <item>Owoce warzywa pełnoziarniste</item>
+        <item>Tłuszcze jednonienasycone i wielonienasycone</item>
+        <item>Ok. 2 litry</item>
+        <item>Mięso ryby jaja orzechy</item>
+        <item>Witamina C i D</item>
+        <item>Dużo węglowodanów</item>
+    </string-array>
+
+    <string name="quiz_finish_title">Quiz ukończony!</string>
+    <string name="quiz_finish_score">Wynik {0}/{1} pytań!</string>
+    <string name="quiz_finish_button">Od nowa</string>
 
 </resources>

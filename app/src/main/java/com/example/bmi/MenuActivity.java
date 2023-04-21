@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button bmiButton, caloriesButton, recipesButton;
+    private Button bmiButton, caloriesButton, recipesButton, quizButton, bmiChart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +19,14 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         bmiButton = findViewById(R.id.button_bmi);
         caloriesButton = findViewById(R.id.button_calories);
         recipesButton = findViewById(R.id.button_recipes);
+        quizButton = findViewById(R.id.button_Quiz);
+        bmiChart = findViewById(R.id.button_chart);
 
         bmiButton.setOnClickListener(this);
         caloriesButton.setOnClickListener(this);
         recipesButton.setOnClickListener(this);
+        quizButton.setOnClickListener(this);
+        bmiChart.setOnClickListener(this);
     }
 
     @Override
@@ -36,6 +40,12 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button_recipes:
                 startActivity(new Intent(this, Recipes.class));
+                break;
+            case R.id.button_Quiz:
+                startActivity(new Intent(this, Quiz.class));
+                break;
+            case R.id.button_chart:
+                startActivity(new Intent(this, BmiChartActivity.class));
                 break;
         }
     }
