@@ -6,6 +6,7 @@
 
 
 
+[1.webm](https://github.com/s21162-pj/BMI_Calculator_MobileApp/assets/56191739/60f69607-5605-4357-a189-caa6fc9544e6)
 
 
 
